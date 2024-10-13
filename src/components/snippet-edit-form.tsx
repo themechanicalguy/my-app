@@ -28,7 +28,7 @@ const SnippetEditForm = ({ snippet }: SnippetEditFormProps) => {
       />
 
       <form action={editSnippetAction}>
-        <button type="submit" className="p-2 border rounded">
+        <button type="submit" class="p-2 border rounded">
           Save
         </button>
       </form>
